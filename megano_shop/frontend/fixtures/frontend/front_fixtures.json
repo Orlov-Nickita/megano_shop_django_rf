@@ -1,0 +1,1650 @@
+[
+  {
+    "model": "frontend.category",
+    "pk": 2,
+    "fields": {
+      "title": "Бытовая техника",
+      "image": 1,
+      "is_subcategory": false,
+      "subcategories": [
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "model": "frontend.category",
+    "pk": 3,
+    "fields": {
+      "title": "Винные шкафы",
+      "image": 2,
+      "is_subcategory": true,
+      "subcategories": []
+    }
+  },
+  {
+    "model": "frontend.category",
+    "pk": 4,
+    "fields": {
+      "title": "Холодильники",
+      "image": 4,
+      "is_subcategory": true,
+      "subcategories": []
+    }
+  },
+  {
+    "model": "frontend.category",
+    "pk": 5,
+    "fields": {
+      "title": "Стиральные машины",
+      "image": 3,
+      "is_subcategory": true,
+      "subcategories": []
+    }
+  },
+  {
+    "model": "frontend.category",
+    "pk": 6,
+    "fields": {
+      "title": "Техника для приготовления пищи",
+      "image": 5,
+      "is_subcategory": false,
+      "subcategories": [
+        7,
+        8,
+        9
+      ]
+    }
+  },
+  {
+    "model": "frontend.category",
+    "pk": 7,
+    "fields": {
+      "title": "Электрочайники",
+      "image": 6,
+      "is_subcategory": true,
+      "subcategories": []
+    }
+  },
+  {
+    "model": "frontend.category",
+    "pk": 8,
+    "fields": {
+      "title": "Мультиварки",
+      "image": 7,
+      "is_subcategory": true,
+      "subcategories": []
+    }
+  },
+  {
+    "model": "frontend.category",
+    "pk": 9,
+    "fields": {
+      "title": "Мясорубки",
+      "image": 8,
+      "is_subcategory": true,
+      "subcategories": []
+    }
+  },
+  {
+    "model": "frontend.category",
+    "pk": 10,
+    "fields": {
+      "title": "Телефоны",
+      "image": 9,
+      "is_subcategory": false,
+      "subcategories": [
+        11,
+        12,
+        13
+      ]
+    }
+  },
+  {
+    "model": "frontend.category",
+    "pk": 11,
+    "fields": {
+      "title": "Смартфоны",
+      "image": 10,
+      "is_subcategory": true,
+      "subcategories": []
+    }
+  },
+  {
+    "model": "frontend.category",
+    "pk": 12,
+    "fields": {
+      "title": "Кнопочные телефоны",
+      "image": 11,
+      "is_subcategory": true,
+      "subcategories": []
+    }
+  },
+  {
+    "model": "frontend.category",
+    "pk": 13,
+    "fields": {
+      "title": "Стационарные телефоны",
+      "image": 12,
+      "is_subcategory": true,
+      "subcategories": []
+    }
+  },
+  {
+    "model": "frontend.categoryimage",
+    "pk": 1,
+    "fields": {
+      "src": "categories_picture/Бытовая_техника.jpeg",
+      "alt": "Категория бытовая техника"
+    }
+  },
+  {
+    "model": "frontend.categoryimage",
+    "pk": 2,
+    "fields": {
+      "src": "categories_picture/Винные_шкафы.jpg",
+      "alt": "Категория винный шкаф"
+    }
+  },
+  {
+    "model": "frontend.categoryimage",
+    "pk": 3,
+    "fields": {
+      "src": "categories_picture/Стиральные_машины.jpg",
+      "alt": "Категория стиральные машины"
+    }
+  },
+  {
+    "model": "frontend.categoryimage",
+    "pk": 4,
+    "fields": {
+      "src": "categories_picture/Холодильники.jpg",
+      "alt": "Категория холодильники"
+    }
+  },
+  {
+    "model": "frontend.categoryimage",
+    "pk": 5,
+    "fields": {
+      "src": "categories_picture/Техника_для_приготовления_пищи.jpg",
+      "alt": "Категория приготовление пищи"
+    }
+  },
+  {
+    "model": "frontend.categoryimage",
+    "pk": 6,
+    "fields": {
+      "src": "categories_picture/Электрочайники.jpg",
+      "alt": "Категория электрочайник"
+    }
+  },
+  {
+    "model": "frontend.categoryimage",
+    "pk": 7,
+    "fields": {
+      "src": "categories_picture/Мультиварки.jpg",
+      "alt": "Категория мультиварки"
+    }
+  },
+  {
+    "model": "frontend.categoryimage",
+    "pk": 8,
+    "fields": {
+      "src": "categories_picture/Мясорубки.jpg",
+      "alt": "Категория мясорубки"
+    }
+  },
+  {
+    "model": "frontend.categoryimage",
+    "pk": 9,
+    "fields": {
+      "src": "categories_picture/Телефоны.jpg",
+      "alt": "Категория телефоны"
+    }
+  },
+  {
+    "model": "frontend.categoryimage",
+    "pk": 10,
+    "fields": {
+      "src": "categories_picture/Смартфоны.jpe",
+      "alt": "Категория смартфоны"
+    }
+  },
+  {
+    "model": "frontend.categoryimage",
+    "pk": 11,
+    "fields": {
+      "src": "categories_picture/кнопочные_телефоны.jpeg",
+      "alt": "Категория кнопочные телефоны"
+    }
+  },
+  {
+    "model": "frontend.categoryimage",
+    "pk": 12,
+    "fields": {
+      "src": "categories_picture/Стационарные_телефоны.jpeg",
+      "alt": "Категория стационарные телефоны"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 1,
+    "fields": {
+      "file": "product_picture/TESLER_WCV-120-1.jpg",
+      "alt": "Винный шкаф TESLER WCV-120 фото 1",
+      "created_at": "2023-04-02T20:27:01.440Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 2,
+    "fields": {
+      "file": "product_picture/TESLER_WCV-120-2.jpg",
+      "alt": "Винный шкаф TESLER WCV-120 фото 2",
+      "created_at": "2023-04-02T20:27:15.720Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 3,
+    "fields": {
+      "file": "product_picture/TESLER_WCV-120-3.jpg",
+      "alt": "Винный шкаф TESLER WCV-120 фото 3",
+      "created_at": "2023-04-02T20:27:24.744Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 4,
+    "fields": {
+      "file": "product_picture/TESLER_WCV-120-4.jpg",
+      "alt": "Винный шкаф TESLER WCV-120 фото 4",
+      "created_at": "2023-04-02T20:27:34.635Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 5,
+    "fields": {
+      "file": "product_picture/TESLER_WCV-120-5.jpg",
+      "alt": "Винный шкаф TESLER WCV-120 фото 5",
+      "created_at": "2023-04-02T20:27:44.975Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 6,
+    "fields": {
+      "file": "product_picture/KitFort_КТ-2407-1.jpg",
+      "alt": "Винныц шкаф KitFort КТ-2407 фото 1",
+      "created_at": "2023-04-02T21:04:12.753Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 7,
+    "fields": {
+      "file": "product_picture/KitFort_КТ-2407-2.jpg",
+      "alt": "Винныц шкаф KitFort КТ-2407 фото 2",
+      "created_at": "2023-04-02T21:04:21.367Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 8,
+    "fields": {
+      "file": "product_picture/KitFort_КТ-2407-3.jpg",
+      "alt": "Винныц шкаф KitFort КТ-2407 фото 3",
+      "created_at": "2023-04-02T21:04:29.778Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 9,
+    "fields": {
+      "file": "product_picture/KitFort_КТ-2407-4.jpg",
+      "alt": "Винныц шкаф KitFort КТ-2407 фото 4",
+      "created_at": "2023-04-02T21:04:39.676Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 10,
+    "fields": {
+      "file": "product_picture/KitFort_КТ-2403-1.jpg",
+      "alt": "Винный шкаф KitFort КТ-2403 фото 1",
+      "created_at": "2023-04-03T14:34:39.764Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 11,
+    "fields": {
+      "file": "product_picture/KitFort_КТ-2403-2.jpg",
+      "alt": "Винный шкаф KitFort КТ-2403 фото 2",
+      "created_at": "2023-04-03T14:34:45.831Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 12,
+    "fields": {
+      "file": "product_picture/KitFort_КТ-2403-3.jpg",
+      "alt": "Винный шкаф KitFort КТ-2403 фото 3",
+      "created_at": "2023-04-03T14:34:52.571Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 13,
+    "fields": {
+      "file": "product_picture/KitFort_КТ-2403-4.jpg",
+      "alt": "Винный шкаф KitFort КТ-2403 фото 4",
+      "created_at": "2023-04-03T14:34:59.228Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 14,
+    "fields": {
+      "file": "product_picture/KitFort_КТ-2403-5.jpg",
+      "alt": "Винный шкаф KitFort КТ-2403 фото 5",
+      "created_at": "2023-04-03T14:35:05.459Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 63,
+    "fields": {
+      "file": "product_picture/Бирюса_Б-50-1.jpg",
+      "alt": "Холодильник Бирюса Б-50 фото 1",
+      "created_at": "2023-04-03T16:43:26.905Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 64,
+    "fields": {
+      "file": "product_picture/Бирюса_Б-50-2.jpg",
+      "alt": "Холодильник Бирюса Б-50 фото 2",
+      "created_at": "2023-04-03T16:43:26.911Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 65,
+    "fields": {
+      "file": "product_picture/Бирюса_Б-50-3.jpg",
+      "alt": "Холодильник Бирюса Б-50 фото 3",
+      "created_at": "2023-04-03T16:43:26.914Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 66,
+    "fields": {
+      "file": "product_picture/Бирюса_Б-50-4.jpg",
+      "alt": "Холодильник Бирюса Б-50 фото 4",
+      "created_at": "2023-04-03T16:43:26.917Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 67,
+    "fields": {
+      "file": "product_picture/Бирюса_Б-50-5.jpg",
+      "alt": "Холодильник Бирюса Б-50 фото 5",
+      "created_at": "2023-04-03T16:43:26.919Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 68,
+    "fields": {
+      "file": "product_picture/Leran_SBS_300_IX_NF-1.jpg",
+      "alt": "Холодильник Leran SBS 300 IX NF фото 1",
+      "created_at": "2023-04-03T17:40:34.233Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 69,
+    "fields": {
+      "file": "product_picture/Leran_SBS_300_IX_NF-2.jpg",
+      "alt": "Холодильник Leran SBS 300 IX NF фото 2",
+      "created_at": "2023-04-03T17:40:34.236Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 70,
+    "fields": {
+      "file": "product_picture/Leran_SBS_300_IX_NF-3.jpg",
+      "alt": "Холодильник Leran SBS 300 IX NF фото 3",
+      "created_at": "2023-04-03T17:40:34.238Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 71,
+    "fields": {
+      "file": "product_picture/Leran_SBS_300_IX_NF-4.jpg",
+      "alt": "Холодильник Leran SBS 300 IX NF фото 4",
+      "created_at": "2023-04-03T17:40:34.241Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 72,
+    "fields": {
+      "file": "product_picture/Leran_SBS_300_IX_NF-5.jpg",
+      "alt": "Холодильник Leran SBS 300 IX NF фото 5",
+      "created_at": "2023-04-03T17:40:34.244Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 73,
+    "fields": {
+      "file": "product_picture/Стиральная_машина_Indesit_IWSD_51051_CIS-1.jpg",
+      "alt": "Стиральная машина Indesit IWSD 51051 CIS фото 1",
+      "created_at": "2023-04-08T20:14:35.748Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 74,
+    "fields": {
+      "file": "product_picture/Стиральная_машина_Indesit_IWSD_51051_CIS-2.jpg",
+      "alt": "Стиральная машина Indesit IWSD 51051 CIS фото 2",
+      "created_at": "2023-04-08T20:14:35.756Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 75,
+    "fields": {
+      "file": "product_picture/Стиральная_машина_Indesit_IWSD_51051_CIS-3.jpg",
+      "alt": "Стиральная машина Indesit IWSD 51051 CIS фото 3",
+      "created_at": "2023-04-08T20:14:35.762Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 76,
+    "fields": {
+      "file": "product_picture/Стиральная_машина_Indesit_IWSD_51051_CIS-4.jpg",
+      "alt": "Стиральная машина Indesit IWSD 51051 CIS фото 4",
+      "created_at": "2023-04-08T20:14:35.766Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 77,
+    "fields": {
+      "file": "product_picture/Чайник_электрический_KitFort_КТ-621-1.jpg",
+      "alt": "Чайник электрический KitFort КТ-621 фото 1",
+      "created_at": "2023-04-08T20:14:49.763Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 78,
+    "fields": {
+      "file": "product_picture/Чайник_электрический_KitFort_КТ-621-2.jpg",
+      "alt": "Чайник электрический KitFort КТ-621 фото 2",
+      "created_at": "2023-04-08T20:14:49.770Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 79,
+    "fields": {
+      "file": "product_picture/Чайник_электрический_KitFort_КТ-621-3.jpg",
+      "alt": "Чайник электрический KitFort КТ-621 фото 3",
+      "created_at": "2023-04-08T20:14:49.773Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 80,
+    "fields": {
+      "file": "product_picture/Чайник_электрический_KitFort_КТ-621-4.jpg",
+      "alt": "Чайник электрический KitFort КТ-621 фото 4",
+      "created_at": "2023-04-08T20:14:49.779Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 81,
+    "fields": {
+      "file": "product_picture/Мультиварка_Tefal_RK901F32-1.jpg",
+      "alt": "Мультиварка Tefal RK901F32 фото 1",
+      "created_at": "2023-04-08T20:22:19.146Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 82,
+    "fields": {
+      "file": "product_picture/Мультиварка_Tefal_RK901F32-2.jpg",
+      "alt": "Мультиварка Tefal RK901F32 фото 2",
+      "created_at": "2023-04-08T20:22:19.152Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 83,
+    "fields": {
+      "file": "product_picture/Мультиварка_Tefal_RK901F32-3.jpg",
+      "alt": "Мультиварка Tefal RK901F32 фото 3",
+      "created_at": "2023-04-08T20:22:19.162Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 84,
+    "fields": {
+      "file": "product_picture/Мультиварка_Tefal_RK901F32-4.jpg",
+      "alt": "Мультиварка Tefal RK901F32 фото 4",
+      "created_at": "2023-04-08T20:22:19.167Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 85,
+    "fields": {
+      "file": "product_picture/Мультиварка_Tefal_RK901F32-5.jpg",
+      "alt": "Мультиварка Tefal RK901F32 фото 5",
+      "created_at": "2023-04-08T20:22:19.171Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 86,
+    "fields": {
+      "file": "product_picture/Мультиварка_Tefal_RK901F32-6.jpg",
+      "alt": "Мультиварка Tefal RK901F32 фото 6",
+      "created_at": "2023-04-08T20:22:19.180Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 94,
+    "fields": {
+      "file": "product_picture/Мясорубка_Аксион_М_61.03-1.jpg",
+      "alt": "Мясорубка Аксион М 61.03-2 фото 1",
+      "created_at": "2023-04-08T20:37:05.910Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 95,
+    "fields": {
+      "file": "product_picture/Мясорубка_Аксион_М_61.03-2.jpg",
+      "alt": "Мясорубка Аксион М 61.03-2 фото 2",
+      "created_at": "2023-04-08T20:37:05.919Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 96,
+    "fields": {
+      "file": "product_picture/Мясорубка_Аксион_М_61.03-3.jpg",
+      "alt": "Мясорубка Аксион М 61.03-2 фото 3",
+      "created_at": "2023-04-08T20:37:05.923Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 97,
+    "fields": {
+      "file": "product_picture/Мясорубка_Аксион_М_61.03-4.jpg",
+      "alt": "Мясорубка Аксион М 61.03-2 фото 4",
+      "created_at": "2023-04-08T20:37:05.930Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 98,
+    "fields": {
+      "file": "product_picture/Мясорубка_Аксион_М_61.03-5.jpg",
+      "alt": "Мясорубка Аксион М 61.03-2 фото 5",
+      "created_at": "2023-04-08T20:37:05.937Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 99,
+    "fields": {
+      "file": "product_picture/Мясорубка_Аксион_М_61.03-6.jpg",
+      "alt": "Мясорубка Аксион М 61.03-2 фото 6",
+      "created_at": "2023-04-08T20:37:05.942Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 100,
+    "fields": {
+      "file": "product_picture/Мясорубка_Аксион_М_61.03-7.jpg",
+      "alt": "Мясорубка Аксион М 61.03-2 фото 7",
+      "created_at": "2023-04-08T20:37:05.949Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 101,
+    "fields": {
+      "file": "product_picture/iPhone_14_Pro_Max_256Gb_silver-1.jpg",
+      "alt": "iPhone 14 Pro Max 256Gb silver фото 1",
+      "created_at": "2023-04-08T20:41:59.085Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 102,
+    "fields": {
+      "file": "product_picture/iPhone_14_Pro_Max_256Gb_silver-2.jpg",
+      "alt": "iPhone 14 Pro Max 256Gb silver фото 2",
+      "created_at": "2023-04-08T20:41:59.093Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 103,
+    "fields": {
+      "file": "product_picture/iPhone_14_Pro_Max_256Gb_silver-3.jpg",
+      "alt": "iPhone 14 Pro Max 256Gb silver фото 3",
+      "created_at": "2023-04-08T20:41:59.099Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 104,
+    "fields": {
+      "file": "product_picture/iPhone_14_Pro_Max_256Gb_silver-4.jpg",
+      "alt": "iPhone 14 Pro Max 256Gb silver фото 4",
+      "created_at": "2023-04-08T20:41:59.106Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 105,
+    "fields": {
+      "file": "product_picture/iPhone_14_Pro_Max_256Gb_silver-5.jpg",
+      "alt": "iPhone 14 Pro Max 256Gb silver фото 5",
+      "created_at": "2023-04-08T20:41:59.110Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 106,
+    "fields": {
+      "file": "product_picture/Philips_Xenium_E185_black-1.jpg",
+      "alt": "Philips Xenium E185 black фото 1",
+      "created_at": "2023-04-08T20:47:39.541Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 107,
+    "fields": {
+      "file": "product_picture/Philips_Xenium_E185_black-2.jpg",
+      "alt": "Philips Xenium E185 black фото 2",
+      "created_at": "2023-04-08T20:47:39.546Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 108,
+    "fields": {
+      "file": "product_picture/Philips_Xenium_E185_black-3.jpg",
+      "alt": "Philips Xenium E185 black фото 3",
+      "created_at": "2023-04-08T20:47:39.552Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 109,
+    "fields": {
+      "file": "product_picture/Philips_Xenium_E185_black-4.jpg",
+      "alt": "Philips Xenium E185 black фото 4",
+      "created_at": "2023-04-08T20:47:39.557Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 110,
+    "fields": {
+      "file": "product_picture/Philips_Xenium_E185_black-5.jpg",
+      "alt": "Philips Xenium E185 black фото 5",
+      "created_at": "2023-04-08T20:47:39.561Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 111,
+    "fields": {
+      "file": "product_picture/Телефон_Ritmix_RT-311-1.jpg",
+      "alt": "Телефон Ritmix RT-311 фото 1",
+      "created_at": "2023-04-08T20:53:53.837Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 112,
+    "fields": {
+      "file": "product_picture/Телефон_Ritmix_RT-311-2.jpg",
+      "alt": "Телефон Ritmix RT-311 фото 2",
+      "created_at": "2023-04-08T20:53:53.846Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 113,
+    "fields": {
+      "file": "product_picture/Телефон_Ritmix_RT-311-3.jpg",
+      "alt": "Телефон Ritmix RT-311 фото 3",
+      "created_at": "2023-04-08T20:53:53.852Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 114,
+    "fields": {
+      "file": "product_picture/Телефон_Ritmix_RT-311-4.jpg",
+      "alt": "Телефон Ritmix RT-311 фото 4",
+      "created_at": "2023-04-08T20:53:53.857Z"
+    }
+  },
+  {
+    "model": "frontend.productimage",
+    "pk": 115,
+    "fields": {
+      "file": "product_picture/Телефон_Ritmix_RT-311-5.jpg",
+      "alt": "Телефон Ritmix RT-311 фото 5",
+      "created_at": "2023-04-08T20:53:53.863Z"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 1,
+    "fields": {
+      "name": "Вес",
+      "value": "11 кг"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 2,
+    "fields": {
+      "name": "Размеры (ШхВхГ)",
+      "value": "25.2 х 63.5 х 50 см"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 3,
+    "fields": {
+      "name": "Объем",
+      "value": "40 литров"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 4,
+    "fields": {
+      "name": "Количество камер",
+      "value": "Однокамерный"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 5,
+    "fields": {
+      "name": "Вес",
+      "value": "21 кг"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 6,
+    "fields": {
+      "name": "Размеры (ШхВхГ)",
+      "value": "34 х 82 х 51 см"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 7,
+    "fields": {
+      "name": "Объем",
+      "value": "60 литров"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 8,
+    "fields": {
+      "name": "Количество камер",
+      "value": "Двухкамерный"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 9,
+    "fields": {
+      "name": "Вес",
+      "value": "9 кг"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 10,
+    "fields": {
+      "name": "Размеры (ШхВхГ)",
+      "value": "41 х 27.5 х 51.5 см;"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 11,
+    "fields": {
+      "name": "Объем",
+      "value": "23 литра"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 12,
+    "fields": {
+      "name": "Объем",
+      "value": "45 литров"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 13,
+    "fields": {
+      "name": "Размеры (ШхВхГ)",
+      "value": "47.2 х 49.2 х 45 см"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 14,
+    "fields": {
+      "name": "Вес",
+      "value": "15 кг"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 15,
+    "fields": {
+      "name": "Объем",
+      "value": "436 литров"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 16,
+    "fields": {
+      "name": "Размеры (ШхВхГ)",
+      "value": "90 х 176 х 57 см"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 17,
+    "fields": {
+      "name": "Вес",
+      "value": "92 кг"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 18,
+    "fields": {
+      "name": "Стирка",
+      "value": "5 кг, 1000 об/мин"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 19,
+    "fields": {
+      "name": "Тип загрузки",
+      "value": "фронтальная"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 20,
+    "fields": {
+      "name": "Размеры (ШхВхГ)",
+      "value": "59.5 х 85 х 42 см"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 21,
+    "fields": {
+      "name": "Шум (стирка/отжим)",
+      "value": "60 дБ/ 76 дБ"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 22,
+    "fields": {
+      "name": "Мощность",
+      "value": "2200 Вт"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 23,
+    "fields": {
+      "name": "Объем",
+      "value": "1.7 л"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 24,
+    "fields": {
+      "name": "Материал корпуса",
+      "value": "нержавеющая сталь и пластик"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 25,
+    "fields": {
+      "name": "Функции",
+      "value": "поддержание температуры"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 26,
+    "fields": {
+      "name": "Регулировки",
+      "value": "регулировка температуры"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 27,
+    "fields": {
+      "name": "Объем чаши",
+      "value": "5 литров"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 28,
+    "fields": {
+      "name": "Управление",
+      "value": "электронное"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 29,
+    "fields": {
+      "name": "Функции",
+      "value": "таймер"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 30,
+    "fields": {
+      "name": "Особенности",
+      "value": "дисплей"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 31,
+    "fields": {
+      "name": "Мощность",
+      "value": "2000Вт, при блокировке вала"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 32,
+    "fields": {
+      "name": "Производительность",
+      "value": "4 кг/мин"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 33,
+    "fields": {
+      "name": "Количество скоростей",
+      "value": "1"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 34,
+    "fields": {
+      "name": "Функции",
+      "value": "реверс, защита от перегрузки"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 35,
+    "fields": {
+      "name": "Насадки",
+      "value": "для колбас, для кеббе, насадка-терка, для шинковки"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 36,
+    "fields": {
+      "name": "Экран",
+      "value": "OLED Super Retina XDR, 6.7 (2796x1290)"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 37,
+    "fields": {
+      "name": "Процессор",
+      "value": "Apple A16 Bionic"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 38,
+    "fields": {
+      "name": "Память",
+      "value": "оперативная 6 ГБ, встроенная 256 ГБ"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 39,
+    "fields": {
+      "name": "Поддержка сетей",
+      "value": "2G/3G/4G (LTE)/5G"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 40,
+    "fields": {
+      "name": "Размеры (ШхВхТ)",
+      "value": "77.6 х 160.7 х 7.85 мм"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 41,
+    "fields": {
+      "name": "Дисплей",
+      "value": "2.8\", TFT; 320 х 240"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 42,
+    "fields": {
+      "name": "Время работы",
+      "value": "в режиме разговора 37 ч; в режиме ожидания 999 ч"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 43,
+    "fields": {
+      "name": "Количество SIM-карт",
+      "value": "2"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 44,
+    "fields": {
+      "name": "Функции",
+      "value": "фонарик, FM-радио, диктофон"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 45,
+    "fields": {
+      "name": "Дополнительные функции",
+      "value": "импульсный способ набора номера, индикация звонка"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 46,
+    "fields": {
+      "name": "Тип и напряжение питания",
+      "value": "от телефонной линии"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 47,
+    "fields": {
+      "name": "Большие кнопки",
+      "value": "есть"
+    }
+  },
+  {
+    "model": "frontend.specifications",
+    "pk": 48,
+    "fields": {
+      "name": "Возможность настенного крепления",
+      "value": "есть"
+    }
+  },
+  {
+    "model": "frontend.product",
+    "pk": 2,
+    "fields": {
+      "category": 3,
+      "price": "14490.00",
+      "count_in_stock": 21,
+      "date": "2023-04-02T20:28:03.994Z",
+      "title": "Винный шкаф TESLER WCV-120",
+      "description": "Винный шкаф однокамерный TESLER WCV-120 вместимость: 12 бутылок, черный",
+      "fullDescription": "В однокамерный винный шкаф Tesler WCV-120 с пятью хромированными полками поместятся 12 бутылок с алкогольными напитками. Температура внутри регулируется в диапазоне от +7 до +18 градусов. Ее регулировка осуществляется через электронную панель. Вся информация о настройках выводится на небольшой дисплей.\r\n\r\nTesler WCV-120 обладает компактными размерами и весит всего 11 кг. Он подойдет как для дома, так и ресторана или бара. Для удобного открывания дверцу со стеклянной вставкой можно закрепить на любой стороне. Винный шкаф оборудован системой принудительной вентиляции и яркой внутренней подсветкой.",
+      "freeDelivery": true,
+      "rating": "5.0",
+      "limited": false,
+      "banner": false,
+      "available": true,
+      "images": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tags": [],
+      "reviews": [],
+      "specifications": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "frontend.product",
+    "pk": 3,
+    "fields": {
+      "category": 3,
+      "price": "27990.00",
+      "count_in_stock": 10,
+      "date": "2023-04-02T21:05:06.957Z",
+      "title": "Винный шкаф KitFort КТ-2407",
+      "description": "Винный шкаф двухкамерный KitFort КТ-2407 вместимость: 21 бутылок, черный",
+      "fullDescription": "Вы планируете в самое ближайшее время открыть винный магазин и необходимо подобрать оптимальное оборудование? Присмотритесь к винному шкафу KITFORT KT-2407, у него имеет сразу две камеры, каждая из которых закрывается отдельной дверью. Работает устройство тихо, уровень его шума не превышает 41 дБ. Внешний дисплей подскажет вам, какие параметры выбраны и какова температура внутри.\r\n\r\nВместимость винного шкафа KITFORT KT-2407 составляет 60 л, разместить бутылки с вином вы сможете на 7 полках, которые представлены металлическими решетками. Вас не сильно побеспокоят счета за электроэнергию, поскольку энергопотребление соответствует классу В, а потребление энергии за год не превышают 168 кВт. Внутри с легкостью размещается 21 бутылка, при этом вы можете хранить белое вино отдельно от красного и установить оптимальную температуру для каждого из них. Вам не придется освобождать много места, так как размеры устройства 34х82х51 см.",
+      "freeDelivery": false,
+      "rating": "0.0",
+      "limited": false,
+      "banner": false,
+      "available": true,
+      "images": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [],
+      "reviews": [],
+      "specifications": [
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "model": "frontend.product",
+    "pk": 4,
+    "fields": {
+      "category": 3,
+      "price": "11899.00",
+      "count_in_stock": 12,
+      "date": "2023-04-02T21:13:00.701Z",
+      "title": "Винный шкаф KitFort КТ-2403",
+      "description": "Винный шкаф однокамерный KitFort КТ-2403 вместимость: 8 бутылок, черный",
+      "fullDescription": "Храните вино в удобном винном шкафу KITFORT КТ-2403, он имеет объем 23 л, что позволяет разместить в нем сразу 8 бутылок. Для вашего удобства имеется сразу 2 полки, которые выполнены в виде металлических решеток, они способны выдержать достаточно большой вес. Уровень шума не превышает 30 дБ.\r\n\r\nИзменять режимы работы винного шкафа KITFORT КТ-2403 вы сможете с комфортом, так как имеется удобный дисплей с сенсорным управлением. Устройство не только сохранит ваше вино, но и украсить помещение, так как имеет красивую внутреннюю подсветку, которую с легкостью можно отключить. Класс энергопотребления шкафа - В.",
+      "freeDelivery": false,
+      "rating": "5.0",
+      "limited": false,
+      "banner": false,
+      "available": true,
+      "images": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "tags": [],
+      "reviews": [],
+      "specifications": [
+        4,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  {
+    "model": "frontend.product",
+    "pk": 5,
+    "fields": {
+      "category": 4,
+      "price": "6499.00",
+      "count_in_stock": 5,
+      "date": "2023-04-03T16:43:53.128Z",
+      "title": "Холодильник Бирюса Б-50",
+      "description": "Холодильник однокамерный Бирюса Б-50 белый",
+      "fullDescription": "Представленный на этой странице холодильник БИРЮСА Б-50 станет оптимальным вариантом для оборудования гостиничного номера или рабочего места. Это однокамерное и однодверное устройство, в котором отсутствует морозильная камера. Общий объем составляет 46 л, а уровень шума при работе не превышает 42 дБ. Полезный объем такого варианта равен 45 л, внутри имеется одна полка. Тип размораживания - ручной.\r\n\r\nПростой и компактный холодильник БИРЮСА Б-50 оснащен низкотемпературным отделением. Оно находится в верхней части и позволяет дольше сохранять продукты свежими. При классе А+, объем энергопотребления достигает 106 кВт*ч/год. За работу отвечает один компрессор. При необходимости можно перевесить дверцу. Модель выполнена в практичном и универсальном белом цвете. Вес составляет 15 кг.",
+      "freeDelivery": false,
+      "rating": "4.5",
+      "limited": true,
+      "banner": false,
+      "available": true,
+      "images": [
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "tags": [],
+      "reviews": [],
+      "specifications": [
+        4,
+        12,
+        13,
+        14
+      ]
+    }
+  },
+  {
+    "model": "frontend.product",
+    "pk": 6,
+    "fields": {
+      "category": 4,
+      "price": "49900.00",
+      "count_in_stock": 4,
+      "date": "2023-04-03T17:43:57.829Z",
+      "title": "Холодильник Leran SBS 300 IX NF",
+      "description": "Холодильник Leran SBS 300 IX NF",
+      "fullDescription": "Вместительный холодильник LERAN SBS 300 IX NF принадлежит к классу side-by-side (холодильник с распашными дверьми) набирающему большую популярность благодаря практичности и внушительному полезному объему.\r\n\r\nЛегкий доступ к продуктам\r\n\r\nПространственная LED подсветка обеспечивает равномерное освещение холодильного и морозильного отделений и упрощает поиск продуктов. Удобные стеклянные полки настраиваются по высоте, чтобы вы могли разместить высокую кастрюлю или трёхлитровую банку. В нижней части расположены вместительные контейнеры, в холодильной камере — для фруктов и овощей, в морозильной — для продуктов длительного хранения.",
+      "freeDelivery": true,
+      "rating": "3.5",
+      "limited": true,
+      "banner": false,
+      "available": true,
+      "images": [
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "tags": [],
+      "reviews": [],
+      "specifications": [
+        8,
+        15,
+        16,
+        17
+      ]
+    }
+  },
+  {
+    "model": "frontend.product",
+    "pk": 7,
+    "fields": {
+      "category": 5,
+      "price": "19420.00",
+      "count_in_stock": 2,
+      "date": "2023-04-08T20:07:24.621Z",
+      "title": "Стиральная машина Indesit IWSD 51051 CIS",
+      "description": "Стиральная машина Indesit IWSD 51051 CIS, с фронтальной загрузкой, 5кг, 1000об/мин",
+      "fullDescription": "Одна из недорогих моделей - стиральная машина INDESIT IWSD 51051 CIS с 13 программами и полезными режимами. Умеет отстирывать шерсть, хлопок, синтетику, джинсовую ткань, а также обувь. Загрузка грязного белья производится фронтально. Управление осуществляется электронно-механическими системами. Самая большая скорость отжима составляет 1000 об/мин и этого достаточно, чтобы после стирки получить сухие вещи.\r\n\r\nВ числе основных функций стиральной машины INDESIT IWSD 51051 CIS есть защита от детей. Маленький ребенок, благодаря опции «Блокировка от случайного нажатия» не включит самостоятельно машину. На лицевой панели расположен небольшой дисплей, который позволяет контролировать процесс стирки и сообщает о выполняемых действиях стиральной машины. За один раз домохозяйка сможет постирать до 5 кг грязного белья.",
+      "freeDelivery": true,
+      "rating": "4.5",
+      "limited": true,
+      "banner": false,
+      "available": true,
+      "images": [
+        73,
+        74,
+        75,
+        76
+      ],
+      "tags": [],
+      "reviews": [],
+      "specifications": [
+        18,
+        19,
+        20,
+        21
+      ]
+    }
+  },
+  {
+    "model": "frontend.product",
+    "pk": 8,
+    "fields": {
+      "category": 7,
+      "price": "3990.00",
+      "count_in_stock": 12,
+      "date": "2023-04-08T20:14:17.860Z",
+      "title": "Чайник электрический KitFort КТ-621",
+      "description": "Чайник электрический KitFort КТ-621, 2200Вт, серебристый",
+      "fullDescription": "На любой кухне не будет лишним чайник электрический KITFORT КТ-621 мощностью 2200 Вт и объемом 1.7 л, благодаря которому вскипятить воду можно за несколько минут. Он выполнен в серебристом цвете из нержавеющей пищевой стали, полностью соответствующей требованиям качества и безопасности, и долговечного пластика. Металл не подвергается коррозии, не содержит в своем составе вредных или опасных для здоровья компонентов, нейтрален к химически агрессивным соединениям.\r\n\r\nКонструкция электрического чайника KITFORT КТ-621 дает возможность выбрать нужную температуру воды и задать ее. Предоставляется несколько режимов работы, для управления которой предусмотрена удобная панель, где выставляются необходимые параметры. В носике установлен фильтр для очистки воды от примесей. Нагревательный элемент - закрытый. Предусмотрена функция автоматического отключения.",
+      "freeDelivery": false,
+      "rating": "4.8",
+      "limited": false,
+      "banner": false,
+      "available": true,
+      "images": [
+        77,
+        78,
+        79,
+        80
+      ],
+      "tags": [],
+      "reviews": [],
+      "specifications": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    }
+  },
+  {
+    "model": "frontend.product",
+    "pk": 9,
+    "fields": {
+      "category": 8,
+      "price": "17610.00",
+      "count_in_stock": 5,
+      "date": "2023-04-08T20:20:44.483Z",
+      "title": "Мультиварка Tefal RK901F32",
+      "description": "Мультиварка Tefal RK901F32, 750Вт, золотистый/черный [7211003108]",
+      "fullDescription": "Умная технология перемешивания\r\n\r\nTefal представляет мультиварку с умной технологией перемешивания с помощью встроенной вращающейся лопатки. Лопатка для перемешивания (с возможным отключением) полностью автоматизирует процесс приготовления., Сферическая шестислойная чаша толщиной 2 мм обеспечивает циркуляцию горячего воздуха - эффект традиционной печи., С помощью 71 программы приготовления и эргономичной панели управления Вы с легкостью приготовите любимые блюда. Ручной режим для экспертов позволяет установить любые параметры времени и температуры., Интеллектуальная система Fuzzy Logic автоматически подбирает время и температуру для оптимального приготовления риса, круп и плова..\r\n\r\nИнтегрированная лопатка для перемешивания ингредиентов работает в соответствии с выбранной программой и позволяет сделать каждое блюдо лучше, Сферическая чаша создает превосходную циркуляцию горячего воздуха внутри для вкусных блюд, С помощью интеллектуальной системы Fuzzy Logic мультиварка автоматически регулирует время и температуру приготовления, Долговечная и качественная многослойная внутренняя чаша (6 слоев, толщина стенки – 2 мм), 71 программа приготовления для универсального использования: запекание, пароварка, жарка, каша, тушение / медленноварка, паста, рис, крупа, варенье, десерт, разморозка, плов / ризотто, йогурт, творог, замешивание теста, суп, автоматическое полоскание, разогрев, поддержание температуры, ручной режим, Большой объем – 10 чашек / 1,8 л, Автоматическое поддержание температуры до 24 часов, Отложенный старт для приготовления в любое время, LED панель управления с высокой четкостью картинки, Съемные части можно мыть в посудомоечной машине, Аксессуары в комплекте: мерная чаша, лопатка для риса, ложка для супа, паровая корзина и книга рецептов.",
+      "freeDelivery": false,
+      "rating": "5.0",
+      "limited": true,
+      "banner": false,
+      "available": true,
+      "images": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "tags": [],
+      "reviews": [],
+      "specifications": [
+        27,
+        28,
+        29,
+        30
+      ]
+    }
+  },
+  {
+    "model": "frontend.product",
+    "pk": 10,
+    "fields": {
+      "category": 9,
+      "price": "10390.00",
+      "count_in_stock": 27,
+      "date": "2023-04-08T20:33:48.213Z",
+      "title": "Мясорубка Аксион М 61.03",
+      "description": "Мясорубка Аксион М 61.03, серебристый / черный",
+      "fullDescription": "Электромясорубка АКСИОН М 61.03 способна выдержать регулярную эксплуатацию и высокие нагрузки в домашних условиях. Она оборудована мощным двигателем (2000 Вт) и за одну минуту перерабатывает до 4 кг любого вида мяса. Устройство с легкостью измельчает говядину, свинину, баранину, а также быстро перемалывает рыбное филе и птицу.\r\n\r\nГотовим вкусно\r\nМясорубка оснащена острым ножом, который без промедления справляется с жиром, жилами, твердыми, плотными и подмороженными мясными кусками. Благодаря двум перфорированным решеткам с отверстиями разного диаметра можно приготовить нежную однородную массу или фарш более грубого помола. Для котлет с начинкой здесь есть насадка кеббе, а также предусмотрен носик для домашних колбасок. К тому же с помощью этого устройства можно шинковать и тереть различные ингредиенты.\r\n\r\nПрактичность и гигиеничность\r\nЭлектромясорубка АКСИОН М 61.03 легко разбирается на составные части, без усилий очищается от загрязнений и не впитывает посторонние запахи. Устройство обладает стильным современным дизайном и эргономичной формой. Прибор выполнен из надежного пластика и прочного металла, поэтому характеризуется длительным сроком службы.\r\n\r\nУдобная\r\nДля хранения насадок и шнура в корпусе агрегата есть необходимый отсек, а прорезиненные ножки предотвращают вибрацию прибора в процессе его эксплуатации.",
+      "freeDelivery": false,
+      "rating": "4.0",
+      "limited": false,
+      "banner": false,
+      "available": true,
+      "images": [
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "tags": [],
+      "reviews": [],
+      "specifications": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    }
+  },
+  {
+    "model": "frontend.product",
+    "pk": 11,
+    "fields": {
+      "category": 11,
+      "price": "143690.00",
+      "count_in_stock": 1,
+      "date": "2023-04-08T20:40:51.670Z",
+      "title": "Phone 14 Pro Max 256Gb",
+      "description": "Смартфон Apple iPhone 14 Pro Max 256Gb, A2893, серебристый",
+      "fullDescription": "iPhone 14 Pro Max\r\nНовый способ взаимодействия с iPhone. Революционные функции безопасности, разработанные для спасения жизней. Инновационная 48-мегапиксельная камера для потрясающей детализации. Все работает на новейшем чипе Apple A16 Bionic.\r\n\r\nГораздо больше подробностей. При гораздо меньшем освещении.\r\nВ 3 раза лучше фотографии при слабом освещении на сверхширокоугольной камере\r\nВ 2 раза лучше фотографии при слабом освещении на основной камере\r\nВ 2 раза лучше фотографии при слабом освещении на телеобъектив\r\n\r\nВдохновитель всего.\r\nНовый процессор A16 Bionic, совершенный для смартфонов.\r\n\r\nВесь день.\r\niPhone 14 Pro Max по-прежнему обеспечивает удивительное время автономной работы в течение всего дня. \r\n29 часов воспроизведения видео на iPhone 14 Pro Max\r\n\r\nКоличество памяти: 256 Гб\r\n\r\nЦвет: серебристый",
+      "freeDelivery": false,
+      "rating": "5.0",
+      "limited": true,
+      "banner": false,
+      "available": true,
+      "images": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "tags": [],
+      "reviews": [],
+      "specifications": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    }
+  },
+  {
+    "model": "frontend.product",
+    "pk": 12,
+    "fields": {
+      "category": 12,
+      "price": "3190.00",
+      "count_in_stock": 2,
+      "date": "2023-04-08T20:46:06.761Z",
+      "title": "Philips Xenium E185",
+      "description": "Сотовый телефон Philips Xenium E185, черный",
+      "fullDescription": "Сотовый телефон Philips E185 выполнен в моноблочном корпусе из пластика и комфортно ложится в руку благодаря компактным размерам. На цветном дисплее диагональю 2.8 дюйма отображается четкая и красочная картинка. На тыловой панели установлена камера 0.3 Мп для создания фото и видео.\r\nСотовый телефон Philips E185 поддерживает одновременную работу с двумя картами SIM и имеет слот под карту памяти. Встроенный порт USB предусматривает возможность подзарядки внешних портативных устройств, а для подзарядки и синхронизации телефона используется разъем microUSB. Одного полноценного заряда аккумулятора емкостью 3100 мА*ч достаточно для 44 часов автономной работы в режиме разговора.",
+      "freeDelivery": false,
+      "rating": "4.3",
+      "limited": true,
+      "banner": false,
+      "available": true,
+      "images": [
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "tags": [],
+      "reviews": [],
+      "specifications": [
+        41,
+        42,
+        43,
+        44
+      ]
+    }
+  },
+  {
+    "model": "frontend.product",
+    "pk": 13,
+    "fields": {
+      "category": 13,
+      "price": "699.00",
+      "count_in_stock": 10,
+      "date": "2023-04-08T20:51:08.906Z",
+      "title": "Телефон проводной Ritmix RT-311",
+      "description": "Телефон проводной Ritmix RT-311",
+      "fullDescription": "Телефон проводной Ritmix RT-311 – простой в использовании телефонный аппарат, который может быть полезен как в офисе, так и дома. Модель подходит для настольной или настенной установки. Телефон универсален: поддерживаются 2 способа набора номера – импульсный и тональный. Особенность аппарата – световая индикация входящего звонка. Телефон поддерживает функцию повторного набора. Крупные цифры на кнопках наверняка будут оценены по достоинству пользователями с ослабленным зрением. Громкость вызова можно регулировать.\r\nТелефон Ritmix RT-311 не нуждается в дополнительном источнике питания. Энергия, необходимая для работы аппарата, поступает от телефонной сети. В числе достоинств телефона – компактность. Аппарат несложно разместить на столе, тумбе или полке даже при сильном недостатке свободного пространства. Цвет модели – черный. Это практичное цветовое решение: любые загрязнения на темном фоне не слишком заметны. Телефон готов к использованию «из коробки»: телефонный кабель входит в комплект поставки.",
+      "freeDelivery": true,
+      "rating": "3.0",
+      "limited": false,
+      "banner": false,
+      "available": true,
+      "images": [
+        111,
+        112,
+        113,
+        114,
+        115
+      ],
+      "tags": [],
+      "reviews": [],
+      "specifications": [
+        45,
+        46,
+        47,
+        48
+      ]
+    }
+  },
+  {
+    "model": "frontend.saleproduct",
+    "pk": 1,
+    "fields": {
+      "product": 6,
+      "salePrice": "40000.00",
+      "dateFrom": "2023-04-02T09:00:00Z",
+      "dateTo": "2023-04-10T09:00:00Z"
+    }
+  },
+  {
+    "model": "frontend.deliverycost",
+    "pk": 1,
+    "fields": {
+      "title": "Корзина",
+      "money": "2000.00",
+      "description": "Сумма заказа, для которой действует условие бесплатной доставки"
+    }
+  },
+  {
+    "model": "frontend.deliverycost",
+    "pk": 2,
+    "fields": {
+      "title": "Обычная",
+      "money": "200.00",
+      "description": "Стоимость обычной доставки"
+    }
+  },
+  {
+    "model": "frontend.deliverycost",
+    "pk": 4,
+    "fields": {
+      "title": "Экспресс",
+      "money": "500.00",
+      "description": "Стоимость экспресс доставки"
+    }
+  },
+  {
+    "model": "frontend.order",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "createdAt": "2023-04-03T18:45:56.854Z",
+      "fullname": "Orlov Nikita Yurevich",
+      "email": "o.rlow@ya.ru",
+      "phone": "9653948778",
+      "deliveryType": "Экспресс",
+      "freeDelivery": false,
+      "paymentType": "Онлайн картой",
+      "totalCost": "11899.00",
+      "deliveryCost": "500.00",
+      "status": "Заказ оплачен",
+      "city": "город Геленджик",
+      "address": "улица Луначарского, дом 144"
+    }
+  },
+  {
+    "model": "frontend.payment",
+    "pk": 1,
+    "fields": {
+      "number": "2222222222222222",
+      "name": "Orlov Nikita",
+      "month": "12",
+      "year": "2023",
+      "code": "333",
+      "user": 1,
+      "order": 1,
+      "status": true,
+      "createdAt": "2023-04-03T18:48:31.162Z",
+      "paid_for": "12399.00"
+    }
+  },
+  {
+    "model": "frontend.basket",
+    "pk": 2,
+    "fields": {
+      "user": 1
+    }
+  },
+  {
+    "model": "frontend.basketproducts",
+    "pk": 3,
+    "fields": {
+      "basket": 2,
+      "product": 6,
+      "count_in_basket": 1
+    }
+  },
+  {
+    "model": "frontend.orderproducts",
+    "pk": 1,
+    "fields": {
+      "order": 1,
+      "product": 4,
+      "count_in_order": 1
+    }
+  }
+]

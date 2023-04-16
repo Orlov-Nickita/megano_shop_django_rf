@@ -1,0 +1,1236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: frontend/templates/frontend/order.html:206
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-09 15:51+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: frontend/admin.py:15
+msgid "Категория"
+msgstr "Category"
+
+#: frontend/admin.py:16 frontend/templates/frontend/base.html:202
+msgid "Категории"
+msgstr "Categories"
+
+#: frontend/admin.py:38
+msgid "Дополнительная информация"
+msgstr "Additional Information"
+
+#: frontend/admin.py:42 frontend/admin.py:67
+msgid "Подкатегории"
+msgstr "Subcategories"
+
+#: frontend/admin.py:58
+msgid "Не является подкатегорией"
+msgstr "Is not a subcategory"
+
+#: frontend/admin.py:60 frontend/admin.py:109 frontend/admin.py:194
+msgid "Миниатюра"
+msgstr "Thumbnail"
+
+#: frontend/admin.py:61
+msgid "Подкатегория для"
+msgstr "Subcategory for"
+
+#: frontend/admin.py:85 frontend/admin.py:199
+msgid "Товар"
+msgstr "Product"
+
+#: frontend/admin.py:86 frontend/admin.py:200
+msgid "Товары"
+msgstr "Products"
+
+#: frontend/admin.py:127
+msgid "Информация о товаре"
+msgstr "Product Information"
+
+#: frontend/admin.py:131
+msgid "Количество и цена"
+msgstr "Quantity and Price"
+
+#: frontend/admin.py:135
+msgid "Реклама"
+msgstr "Banner"
+
+#: frontend/admin.py:139
+msgid "Дополнительная информация (Изображения, теги, отзывы и характеристики)"
+msgstr "Additional information (Images, Tags, Reviews and Characteristics)"
+
+#: frontend/admin.py:155
+msgid "Продано"
+msgstr "Saled"
+
+#: frontend/admin.py:165
+msgid "Фотографии"
+msgstr "Photos"
+
+#: frontend/admin.py:212
+msgid "Отзыв"
+msgstr "Review"
+
+#: frontend/admin.py:216 frontend/templates/frontend/product.html:143
+msgid "Автор"
+msgstr "Author"
+
+#: frontend/admin.py:233
+msgid "Информация о покупателе"
+msgstr "Customer Information"
+
+#: frontend/admin.py:237 frontend/templates/frontend/base.html:321
+msgid "Информация о заказе"
+msgstr "Order Information"
+
+#: frontend/admin.py:241
+msgid "Оплата и доставка"
+msgstr "Payment and Delivery"
+
+#: frontend/admin.py:253
+msgid "Общая стоимость"
+msgstr "Total Cost"
+
+#: frontend/admin.py:278
+msgid ""
+"Одновременно могут существовать только три записи - пожалуйста, сначала "
+"удалите другие"
+msgstr ""
+"Only three entries can exist at the same time - please delete the others "
+"first"
+
+#: frontend/apps.py:9
+msgid "Фронтенд"
+msgstr "Frontend"
+
+#: frontend/models.py:9
+msgid "категория"
+msgstr "category"
+
+#: frontend/models.py:10
+msgid "категории"
+msgstr "categories"
+
+#: frontend/models.py:12
+msgid "название категории"
+msgstr "category name"
+
+#: frontend/models.py:16 frontend/models.py:43
+msgid "изображение категории"
+msgstr "Category image"
+
+#: frontend/models.py:21
+msgid "подкатегории"
+msgstr "subcategories"
+
+#: frontend/models.py:22
+msgid "является подкатегорией"
+msgstr "is a subcategory"
+
+#: frontend/models.py:23
+msgid ""
+"Для выбора подкатегорий необходимо снять галочку и сохранить выбор. После "
+"обновления страницы откроется доступ к подкатегориям"
+msgstr ""
+"To select subcategories, uncheck the box and save the selection. After "
+"updating the page, access to subcategories will open"
+
+#: frontend/models.py:37
+msgid "фотография категории"
+msgstr "category photo"
+
+#: frontend/models.py:38
+msgid "фотографии категорий"
+msgstr "category photos"
+
+#: frontend/models.py:44 frontend/models.py:86 users/models.py:9
+msgid "описание изображения"
+msgstr "image description"
+
+#: frontend/models.py:52 frontend/models.py:121
+msgid "тег"
+msgstr "tag"
+
+#: frontend/models.py:53
+msgid "теги"
+msgstr "tags"
+
+#: frontend/models.py:55
+msgid "id тега"
+msgstr "tag id"
+
+#: frontend/models.py:56
+msgid "имя тега"
+msgstr "tag name"
+
+#: frontend/models.py:64
+msgid "отзыв"
+msgstr "review"
+
+#: frontend/models.py:65 frontend/models.py:122
+msgid "отзывы"
+msgstr "reviews"
+
+#: frontend/models.py:67
+msgid "автор отзыва"
+msgstr "review author"
+
+#: frontend/models.py:68
+msgid "email автора"
+msgstr "author email"
+
+#: frontend/models.py:69
+msgid "текст отзыва"
+msgstr "review text"
+
+#: frontend/models.py:73
+msgid "оценка товара"
+msgstr "product rating"
+
+#: frontend/models.py:74
+msgid "дата отзыва"
+msgstr "review date"
+
+#: frontend/models.py:77
+msgid "Отзыв от "
+msgstr "Review from "
+
+#: frontend/models.py:82
+msgid "фотография товара"
+msgstr "product photo"
+
+#: frontend/models.py:83
+msgid "фотографии товаров"
+msgstr "product photos"
+
+#: frontend/models.py:85
+msgid "изображение товара"
+msgstr "product image"
+
+#: frontend/models.py:90
+msgid "Фото "
+msgstr "Photo "
+
+#: frontend/models.py:95
+msgid "характеристика"
+msgstr "characteristic"
+
+#: frontend/models.py:96
+msgid "характеристики"
+msgstr "characteristics"
+
+#: frontend/models.py:98
+msgid "название характеристики"
+msgstr "feature name"
+
+#: frontend/models.py:99
+msgid "значение"
+msgstr "value"
+
+#: frontend/models.py:107 frontend/models.py:146 frontend/models.py:262
+#: frontend/models.py:276
+msgid "товар"
+msgstr "product"
+
+#: frontend/models.py:108
+msgid "товары"
+msgstr "products"
+
+#: frontend/models.py:110
+msgid "категория товара"
+msgstr "product category"
+
+#: frontend/models.py:112
+msgid "цена"
+msgstr "price"
+
+#: frontend/models.py:113
+msgid "количество в наличии"
+msgstr "quantity in stock"
+
+#: frontend/models.py:114 frontend/models.py:195 frontend/models.py:232
+#: users/models.py:11
+msgid "дата создания"
+msgstr "date of creation"
+
+#: frontend/models.py:115
+msgid "название"
+msgstr "title"
+
+#: frontend/models.py:116
+msgid "краткое описание"
+msgstr "short description"
+
+#: frontend/models.py:117
+msgid "полное описание"
+msgstr "full description"
+
+#: frontend/models.py:118 frontend/models.py:202
+msgid "бесплатная доставка"
+msgstr "free shipping"
+
+#: frontend/models.py:119
+msgid "изображения товара"
+msgstr "product images"
+
+#: frontend/models.py:123
+msgid "рейтинг"
+msgstr "rating"
+
+#: frontend/models.py:127
+msgid "ограниченный тираж"
+msgstr "limited edition"
+
+#: frontend/models.py:128
+msgid "баннер на главной странице"
+msgstr "banner on the main page"
+
+#: frontend/models.py:129
+msgid "дополнительные характеристики"
+msgstr "additional features"
+
+#: frontend/models.py:131
+msgid "в наличии"
+msgstr "in stock"
+
+#: frontend/models.py:142
+msgid "товар на распродаже"
+msgstr "goods on sale"
+
+#: frontend/models.py:143
+msgid "товары на распродаже"
+msgstr "goods on sale"
+
+#: frontend/models.py:147
+msgid "цена со скидкой"
+msgstr "discounted price"
+
+#: frontend/models.py:148
+msgid "дата начала распродажи"
+msgstr "sale start date"
+
+#: frontend/models.py:149
+msgid "дата окончания распродажи"
+msgstr "sale end date"
+
+#: frontend/models.py:152
+msgid "Уценка на "
+msgstr "Markdown on "
+
+#: frontend/models.py:157 frontend/models.py:207
+msgid "стоимость доставки"
+msgstr "shipping cost"
+
+#: frontend/models.py:158
+msgid "стоимости доставки"
+msgstr "shipping costs"
+
+#: frontend/models.py:161 frontend/models.py:181
+msgid "Обычная"
+msgstr "Regular"
+
+#: frontend/models.py:162 frontend/models.py:182
+msgid "Экспресс"
+msgstr "Express"
+
+#: frontend/models.py:163 frontend/templates/frontend/base.html:310
+#: frontend/templates/frontend/cart.html:11
+#: frontend/templates/frontend/cart.html:21
+msgid "Корзина"
+msgstr "Shopping cart"
+
+#: frontend/models.py:166
+msgid "название величины"
+msgstr "quantity name"
+
+#: frontend/models.py:167
+msgid "сумма"
+msgstr "amount"
+
+#: frontend/models.py:168
+msgid "описание"
+msgstr "description"
+
+#: frontend/models.py:176 frontend/models.py:230 frontend/models.py:275
+msgid "заказ"
+msgstr "order"
+
+#: frontend/models.py:177
+msgid "заказы"
+msgstr "orders"
+
+#: frontend/models.py:186
+msgid "Онлайн картой"
+msgstr "Online by card"
+
+#: frontend/models.py:187
+msgid "Онлайн с чужого счета"
+msgstr "Online from someone else's account"
+
+#: frontend/models.py:190
+msgid "Заказ оплачен"
+msgstr "Order paid"
+
+#: frontend/models.py:191
+msgid "Заказ не оплачен"
+msgstr "Order not paid"
+
+#: frontend/models.py:193 frontend/models.py:229 users/models.py:10
+#: users/models.py:22
+msgid "пользователь"
+msgstr "user"
+
+#: frontend/models.py:194
+msgid "номер заказа"
+msgstr "order number"
+
+#: frontend/models.py:196
+msgid "заказчик"
+msgstr "customer"
+
+#: frontend/models.py:199 users/models.py:26
+msgid "телефон"
+msgstr "phone"
+
+#: frontend/models.py:201
+msgid "тип доставки"
+msgstr "delivery type"
+
+#: frontend/models.py:204
+msgid "способ оплаты"
+msgstr "payment method"
+
+#: frontend/models.py:205
+msgid "стоимость товаров"
+msgstr "cost of goods"
+
+#: frontend/models.py:209 frontend/models.py:231
+msgid "статус оплаты"
+msgstr "payment status"
+
+#: frontend/models.py:210
+msgid "город доставки"
+msgstr "delivery city"
+
+#: frontend/models.py:211
+msgid "адрес доставки"
+msgstr "delivery address"
+
+#: frontend/models.py:212
+msgid "товары в заказе"
+msgstr "products in the order"
+
+#: frontend/models.py:216
+msgid "Заказ # "
+msgstr "Order # "
+
+#: frontend/models.py:221
+msgid "платеж"
+msgstr "payment"
+
+#: frontend/models.py:222
+msgid "платежи"
+msgstr "payments"
+
+#: frontend/models.py:224
+msgid "номер карты"
+msgstr "card number"
+
+#: frontend/models.py:225
+msgid "имя держателя карты"
+msgstr "cardholder name"
+
+#: frontend/models.py:226
+msgid "месяц"
+msgstr "month"
+
+#: frontend/models.py:227
+msgid "год"
+msgstr "year"
+
+#: frontend/models.py:228
+msgid "cvv код"
+msgstr "cvv code"
+
+#: frontend/models.py:233
+msgid "сумма платежа"
+msgstr "payment amount"
+
+#: frontend/models.py:236
+msgid "Платежная информация пользователя"
+msgstr "User's payment information"
+
+#: frontend/models.py:238
+msgid "по заказу"
+msgstr "by order"
+
+#: frontend/models.py:244
+msgid "корзина с заказом"
+msgstr "shopping cart with by order"
+
+#: frontend/models.py:245
+msgid "корзины с заказами"
+msgstr "baskets with orders"
+
+#: frontend/models.py:247
+msgid "покупатель"
+msgstr "buyer"
+
+#: frontend/models.py:248
+msgid "товары в корзине"
+msgstr "goods in the basket"
+
+#: frontend/models.py:249
+msgid "basket_products"
+msgstr "basket_products"
+
+#: frontend/models.py:252
+msgid "Корзина #"
+msgstr "Basket #"
+
+#: frontend/models.py:257
+msgid "товар из корзины"
+msgstr "goods from the basket"
+
+#: frontend/models.py:258
+msgid "все товары из корзины"
+msgstr "all goods from the basket"
+
+#: frontend/models.py:261
+msgid "корзина"
+msgstr "basket"
+
+#: frontend/models.py:263
+msgid "количество товара в корзине"
+msgstr "quantity of goods in the basket"
+
+#: frontend/models.py:271
+msgid "товар из заказа"
+msgstr "goods from the order"
+
+#: frontend/models.py:272
+msgid "все товары из заказа"
+msgstr "all goods from the order"
+
+#: frontend/models.py:277
+msgid "количество товара в заказе"
+msgstr "quantity of goods in the order"
+
+#: frontend/templates/frontend/about.html:11
+msgid "О магазине Megano"
+msgstr "About Megano store"
+
+#: frontend/templates/frontend/about.html:16
+#: frontend/templates/frontend/account.html:16
+#: frontend/templates/frontend/base.html:134
+#: frontend/templates/frontend/cart.html:16
+#: frontend/templates/frontend/catalog.html:16
+#: frontend/templates/frontend/historyorder.html:16
+#: frontend/templates/frontend/oneorder.html:16
+#: frontend/templates/frontend/order.html:16
+#: frontend/templates/frontend/payment.html:16
+#: frontend/templates/frontend/paymentsomeone.html:16
+#: frontend/templates/frontend/product.html:16
+#: frontend/templates/frontend/profile.html:16
+#: frontend/templates/frontend/progressPayment.html:16
+#: frontend/templates/frontend/sale.html:16
+msgid "Домашняя страница"
+msgstr "Home"
+
+#: frontend/templates/frontend/about.html:21
+msgid "О нас"
+msgstr "About us"
+
+#: frontend/templates/frontend/about.html:38
+#: frontend/templates/frontend/index.html:87
+msgid "Доставка и возврат товара"
+msgstr "Delivery and return of goods"
+
+#: frontend/templates/frontend/about.html:41
+#: frontend/templates/frontend/index.html:90
+msgid "Доставка по всему миру"
+msgstr "Worldwide Delivery"
+
+#: frontend/templates/frontend/about.html:53
+#: frontend/templates/frontend/index.html:102
+msgid "Возврат денег"
+msgstr "Refund"
+
+#: frontend/templates/frontend/about.html:56
+msgid "Гарантированные платежи"
+msgstr "Guaranteed Payments"
+
+#: frontend/templates/frontend/about.html:68
+#: frontend/templates/frontend/index.html:117
+msgid "Политика поддержки"
+msgstr "Support Policy"
+
+#: frontend/templates/frontend/about.html:71
+msgid "Быстрая команда поддержки"
+msgstr "Fast Support Team"
+
+#: frontend/templates/frontend/about.html:83
+#: frontend/templates/frontend/index.html:132
+msgid "Гарантия качества"
+msgstr "Quality Assurance"
+
+#: frontend/templates/frontend/about.html:86
+#: frontend/templates/frontend/index.html:135
+msgid "Товары с наилучшей гарантией"
+msgstr "Products with the best guarantee"
+
+#: frontend/templates/frontend/about.html:94
+msgid "Подписывайтесь на нас"
+msgstr "Subscribe to us"
+
+#: frontend/templates/frontend/about.html:127
+msgid "Почему стоит выбрать Megano?"
+msgstr "Why should you choose Megano?"
+
+#: frontend/templates/frontend/about.html:143
+msgid "Перед началом"
+msgstr "Before you start"
+
+#: frontend/templates/frontend/about.html:163
+msgid "История магазина Megano"
+msgstr "Megano Store History"
+
+#: frontend/templates/frontend/account.html:11
+#: frontend/templates/frontend/account.html:21
+msgid "Личный кабинет"
+msgstr "Personal Account"
+
+#: frontend/templates/frontend/account.html:34
+#: frontend/templates/frontend/historyorder.html:34
+#: frontend/templates/frontend/profile.html:34
+msgid "Навигация"
+msgstr "Navigation"
+
+#: frontend/templates/frontend/account.html:42
+#: frontend/templates/frontend/historyorder.html:42
+#: frontend/templates/frontend/profile.html:11
+#: frontend/templates/frontend/profile.html:21
+#: frontend/templates/frontend/profile.html:42 users/models.py:29
+msgid "Профиль"
+msgstr "Profile"
+
+#: frontend/templates/frontend/account.html:47
+#: frontend/templates/frontend/historyorder.html:11
+#: frontend/templates/frontend/historyorder.html:21
+#: frontend/templates/frontend/historyorder.html:47
+#: frontend/templates/frontend/oneorder.html:21
+#: frontend/templates/frontend/profile.html:47
+msgid "История заказов"
+msgstr "Order History"
+
+#: frontend/templates/frontend/account.html:68
+msgid "Редактировать профиль"
+msgstr "Edit Profile"
+
+#: frontend/templates/frontend/account.html:79
+#: frontend/templates/frontend/historyorder.html:62
+#: frontend/templates/frontend/oneorder.html:11
+#: frontend/templates/frontend/oneorder.html:26
+#: frontend/templates/frontend/payment.html:31
+msgid "Заказ"
+msgstr "Order"
+
+#: frontend/templates/frontend/account.html:83
+#: frontend/templates/frontend/historyorder.html:66
+#: frontend/templates/frontend/index.html:18
+#: frontend/templates/frontend/payment.html:33
+msgid "от"
+msgstr "from"
+
+#: frontend/templates/frontend/account.html:92
+#: frontend/templates/frontend/historyorder.html:75
+#: frontend/templates/frontend/oneorder.html:71
+#: frontend/templates/frontend/order.html:215
+msgid "Тип доставки:"
+msgstr "Delivery Type:"
+
+#: frontend/templates/frontend/account.html:98
+#: frontend/templates/frontend/historyorder.html:81
+#: frontend/templates/frontend/oneorder.html:89
+#: frontend/templates/frontend/order.html:236
+msgid "Оплата:"
+msgstr "Payment:"
+
+#: frontend/templates/frontend/account.html:104
+#: frontend/templates/frontend/historyorder.html:87
+msgid "Общая стоимость:"
+msgstr "Total cost:"
+
+#: frontend/templates/frontend/account.html:106
+#: frontend/templates/frontend/base.html:176
+#: frontend/templates/frontend/cart.html:49
+#: frontend/templates/frontend/cart.html:81
+#: frontend/templates/frontend/catalog.html:130
+#: frontend/templates/frontend/historyorder.html:90
+#: frontend/templates/frontend/index.html:20
+#: frontend/templates/frontend/index.html:58
+#: frontend/templates/frontend/index.html:169
+#: frontend/templates/frontend/oneorder.html:121
+#: frontend/templates/frontend/order.html:127
+#: frontend/templates/frontend/order.html:260
+#: frontend/templates/frontend/order.html:276
+#: frontend/templates/frontend/order.html:282
+#: frontend/templates/frontend/order.html:288
+#: frontend/templates/frontend/payment.html:38
+#: frontend/templates/frontend/product.html:52
+#: frontend/templates/frontend/sale.html:48
+#: frontend/templates/frontend/sale.html:51
+msgid "руб."
+msgstr "rub"
+
+#: frontend/templates/frontend/account.html:110
+#: frontend/templates/frontend/historyorder.html:95
+#: frontend/templates/frontend/oneorder.html:95
+msgid "Статус:"
+msgstr "Status:"
+
+#: frontend/templates/frontend/base.html:38
+msgid "Бесплатная доставка"
+msgstr "Free Shipping"
+
+#: frontend/templates/frontend/base.html:43 users/templates/users/base.html:38
+msgid "Подписывайтесь на обновления"
+msgstr "Subscribe for updates"
+
+#: frontend/templates/frontend/base.html:78
+msgid "Выбор языка"
+msgstr "Language selection"
+
+#: frontend/templates/frontend/base.html:91
+msgid "Выбрать"
+msgstr "Select"
+
+#: frontend/templates/frontend/base.html:107
+msgid "Выйти из профиля"
+msgstr "Log out of profile"
+
+#: frontend/templates/frontend/base.html:113
+msgid "Войти в профиль / зарегистрироваться"
+msgstr "Log in to your profile / register"
+
+#: frontend/templates/frontend/base.html:139
+msgid "Товары по акции"
+msgstr "Sale"
+
+#: frontend/templates/frontend/base.html:144
+msgid "Горящие товары"
+msgstr "Hot"
+
+#: frontend/templates/frontend/base.html:147
+#: frontend/templates/frontend/catalog.html:11
+#: frontend/templates/frontend/catalog.html:20
+msgid "Каталог"
+msgstr "Catalog"
+
+#: frontend/templates/frontend/base.html:157
+msgid "Аккаунт"
+msgstr "Account"
+
+#: frontend/templates/frontend/base.html:184
+msgid "Показать навигацию"
+msgstr "Show navigation"
+
+#: frontend/templates/frontend/base.html:243
+msgid "Что будем искать?"
+msgstr "What are we looking for?"
+
+#: frontend/templates/frontend/base.html:246
+msgid "Поиск"
+msgstr "Search"
+
+#: frontend/templates/frontend/base.html:300
+msgid "Полезные ссылки"
+msgstr "Useful links"
+
+#: frontend/templates/frontend/base.html:305
+msgid "Контроль"
+msgstr "Control"
+
+#: frontend/templates/frontend/base.html:316
+msgid "Доставка"
+msgstr "Delivery"
+
+#: frontend/templates/frontend/base.html:326
+msgid "Условия"
+msgstr "Terms"
+
+#: frontend/templates/frontend/base.html:331
+msgid "Положения"
+msgstr "Terms"
+
+#: frontend/templates/frontend/base.html:338
+msgid "Мой профиль"
+msgstr "My profile"
+
+#: frontend/templates/frontend/base.html:343
+msgid "Аксессуары"
+msgstr "Accessories"
+
+#: frontend/templates/frontend/base.html:348
+msgid "Сумки"
+msgstr "Bags"
+
+#: frontend/templates/frontend/base.html:353
+msgid "Камеры"
+msgstr "Cameras"
+
+#: frontend/templates/frontend/base.html:358
+msgid "Одежда"
+msgstr "Clothing"
+
+#: frontend/templates/frontend/base.html:363
+msgid "Электроника"
+msgstr "Electronics"
+
+#: frontend/templates/frontend/base.html:368
+msgid "Мода"
+msgstr "Fashion"
+
+#: frontend/templates/frontend/base.html:375
+msgid "Контакты"
+msgstr "Contacts"
+
+#: frontend/templates/frontend/base.html:378
+msgid ""
+"Телефон: 8.800.200.600<br>Email: Support@ninzio.com<br>Skype: "
+"techno<br>Адрес: New York, north<br>Avenue 26/7<br>0057"
+msgstr ""
+"Phone: 8.800.200.600<br>Email: Support@ninzio.com<br>Skype: "
+"technologies<br>Address: New York, north<br>Avenue 26/7 0057"
+
+#: frontend/templates/frontend/base.html:389
+#: users/templates/users/base.html:107
+msgid "Магазин Megano"
+msgstr "Megano Store"
+
+#: frontend/templates/frontend/base.html:391
+#: users/templates/users/base.html:109
+msgid "Все права защищены."
+msgstr "All rights reserved."
+
+#: frontend/templates/frontend/base.html:395
+msgid "Принимаемые платежные системы"
+msgstr "Accepted payment systems"
+
+#: frontend/templates/frontend/cart.html:78
+#: frontend/templates/frontend/oneorder.html:133
+msgid "Итого:"
+msgstr "Total:"
+
+#: frontend/templates/frontend/cart.html:86
+msgid "Оформить заказ"
+msgstr "Place an order"
+
+#: frontend/templates/frontend/catalog.html:33
+msgid "Фильтр"
+msgstr "Filter"
+
+#: frontend/templates/frontend/catalog.html:46
+msgid "Цена:"
+msgstr "Price:"
+
+#: frontend/templates/frontend/catalog.html:54
+msgid "Название"
+msgstr "Name"
+
+#: frontend/templates/frontend/catalog.html:63
+msgid "Только товары в наличии"
+msgstr "Only products in stock"
+
+#: frontend/templates/frontend/catalog.html:72
+msgid "С бесплатной доставкой"
+msgstr "With free shipping"
+
+#: frontend/templates/frontend/catalog.html:79
+msgid "Фильтровать"
+msgstr "Filter"
+
+#: frontend/templates/frontend/catalog.html:89
+msgid "Популярные теги"
+msgstr "Popular tags"
+
+#: frontend/templates/frontend/catalog.html:107
+msgid "Сортировать по:"
+msgstr "Sort by:"
+
+#: frontend/templates/frontend/index.html:40
+msgid "Популярные продукты"
+msgstr "Popular products"
+
+#: frontend/templates/frontend/index.html:105
+msgid "Гарантированные выплаты"
+msgstr "Guaranteed payments"
+
+#: frontend/templates/frontend/index.html:120
+msgid "Быстрая служба поддержки"
+msgstr "Fast support service"
+
+#: frontend/templates/frontend/index.html:145
+msgid "Лимитированные товары"
+msgstr "Limited goods"
+
+#: frontend/templates/frontend/oneorder.html:45
+msgid "Дата заказа:"
+msgstr "Order date:"
+
+#: frontend/templates/frontend/oneorder.html:51
+#: frontend/templates/frontend/order.html:191
+msgid "ФИО:"
+msgstr "Full name:"
+
+#: frontend/templates/frontend/oneorder.html:57
+#: frontend/templates/frontend/order.html:198
+msgid "Телефон:"
+msgstr "Phone:"
+
+#: frontend/templates/frontend/oneorder.html:63
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: frontend/templates/frontend/oneorder.html:77
+#: frontend/templates/frontend/order.html:222
+msgid "Город:"
+msgstr "City:"
+
+#: frontend/templates/frontend/oneorder.html:83
+#: frontend/templates/frontend/order.html:229
+msgid "Адрес:"
+msgstr "Address:"
+
+#: frontend/templates/frontend/oneorder.html:101
+msgid "Оплата не прошла:"
+msgstr "Payment failed:"
+
+#: frontend/templates/frontend/oneorder.html:126
+msgid "шт."
+msgstr "pcs."
+
+#: frontend/templates/frontend/oneorder.html:141
+#: frontend/templates/frontend/order.html:293
+#: frontend/templates/frontend/payment.html:81
+#: frontend/templates/frontend/paymentsomeone.html:47
+msgid "Оплатить"
+msgstr "Pay"
+
+#: frontend/templates/frontend/order.html:11
+#: frontend/templates/frontend/order.html:21
+msgid "Оформление заказа"
+msgstr "Checkout"
+
+#: frontend/templates/frontend/order.html:35
+msgid "Прогресс заполнения"
+msgstr "Filling progress"
+
+#: frontend/templates/frontend/order.html:42
+#: frontend/templates/frontend/order.html:71
+msgid "Шаг 1. Параметры пользователя"
+msgstr "Step 1. User Parameters"
+
+#: frontend/templates/frontend/order.html:47
+#: frontend/templates/frontend/order.html:108
+msgid "Шаг 2. Способ доставки"
+msgstr "Step 2. Delivery method"
+
+#: frontend/templates/frontend/order.html:52
+#: frontend/templates/frontend/order.html:153
+msgid "Шаг 3. Способ оплаты"
+msgstr "Step 3. Payment method"
+
+#: frontend/templates/frontend/order.html:57
+#: frontend/templates/frontend/order.html:181
+msgid "Шаг 4. Подтверждение заказа"
+msgstr "Step 4. Order Confirmation"
+
+#: frontend/templates/frontend/order.html:78
+#: frontend/templates/frontend/payment.html:73
+msgid "ФИО"
+msgstr "Full name"
+
+#: frontend/templates/frontend/order.html:85
+#: frontend/templates/frontend/profile.html:112 users/forms.py:20
+msgid "Телефон"
+msgstr "Phone"
+
+#: frontend/templates/frontend/order.html:101
+#: frontend/templates/frontend/order.html:146
+#: frontend/templates/frontend/order.html:174
+msgid "Дальше"
+msgstr "Next"
+
+#: frontend/templates/frontend/order.html:127
+msgid "Дополнительно"
+msgstr "Additional"
+
+#: frontend/templates/frontend/order.html:127
+msgid "к сумме заказа"
+msgstr "to the order amount"
+
+#: frontend/templates/frontend/order.html:134
+msgid "Город"
+msgstr "City"
+
+#: frontend/templates/frontend/order.html:140
+msgid "Адрес"
+msgstr "Address"
+
+#: frontend/templates/frontend/order.html:274
+msgid "Итого без стоимости доставки:"
+msgstr "Total without delivery cost:"
+
+#: frontend/templates/frontend/order.html:280
+msgid "Стоимость доставки:"
+msgstr "Delivery cost:"
+
+#: frontend/templates/frontend/order.html:286
+#: frontend/templates/frontend/payment.html:37
+msgid "Общая стоимость заказа:"
+msgstr "Total order cost:"
+
+#: frontend/templates/frontend/order.html:306
+#: frontend/templates/frontend/order.html:308
+msgid "Логин"
+msgstr "Login"
+
+#: frontend/templates/frontend/order.html:312
+#: frontend/templates/frontend/order.html:314
+#: frontend/templates/frontend/profile.html:144
+msgid "Пароль"
+msgstr "Password"
+
+#: frontend/templates/frontend/order.html:318
+msgid "Авторизация"
+msgstr "Authorization"
+
+#: frontend/templates/frontend/order.html:322
+msgid "Регистрация"
+msgstr "Registration"
+
+#: frontend/templates/frontend/payment.html:11
+#: frontend/templates/frontend/payment.html:21
+#: frontend/templates/frontend/paymentsomeone.html:11
+#: frontend/templates/frontend/paymentsomeone.html:21
+msgid "Оплата"
+msgstr "Payment"
+
+#: frontend/templates/frontend/payment.html:45
+msgid "Номер карты"
+msgstr "Card Number"
+
+#: frontend/templates/frontend/payment.html:52
+msgid "Месяц"
+msgstr "Month"
+
+#: frontend/templates/frontend/payment.html:59
+msgid "Год"
+msgstr "Year"
+
+#: frontend/templates/frontend/payment.html:75
+msgid "Сельдерей Ананасов"
+msgstr "Pineapple Celery"
+
+#: frontend/templates/frontend/paymentsomeone.html:34
+msgid "Номер счета"
+msgstr "Account Number"
+
+#: frontend/templates/frontend/paymentsomeone.html:41
+msgid "Сгенерировать случайный счет"
+msgstr "Generate a random invoice"
+
+#: frontend/templates/frontend/product.html:11
+msgid "Продукт"
+msgstr "Product"
+
+#: frontend/templates/frontend/product.html:75
+msgid "Добавить в корзину"
+msgstr "Add to Cart"
+
+#: frontend/templates/frontend/product.html:83
+msgid "Теги"
+msgstr "Tags"
+
+#: frontend/templates/frontend/product.html:97
+msgid "Описание"
+msgstr "Description"
+
+#: frontend/templates/frontend/product.html:102
+msgid "Отзывы"
+msgstr "Reviews"
+
+#: frontend/templates/frontend/product.html:115
+msgid "Характеристика"
+msgstr "Characteristics"
+
+#: frontend/templates/frontend/product.html:118
+msgid "Значение"
+msgstr "Value"
+
+#: frontend/templates/frontend/product.html:131
+msgid "Отзывов"
+msgstr "Reviews"
+
+#: frontend/templates/frontend/product.html:146
+msgid "Дата"
+msgstr "Date"
+
+#: frontend/templates/frontend/product.html:150
+msgid "Оценка"
+msgstr "Rating"
+
+#: frontend/templates/frontend/product.html:161
+msgid "Добавить отзыв"
+msgstr "Add Review"
+
+#: frontend/templates/frontend/product.html:167
+msgid "Текст отзыва"
+msgstr "Review Text"
+
+#: frontend/templates/frontend/product.html:173
+#: frontend/templates/frontend/profile.html:98 users/forms.py:9
+msgid "Имя"
+msgstr "Name"
+
+#: frontend/templates/frontend/product.html:195
+msgid "Опубликовать отзыв"
+msgstr "Post review"
+
+#: frontend/templates/frontend/profile.html:62 users/forms.py:25
+#: users/models.py:8
+msgid "Аватар"
+msgstr "Avatar"
+
+#: frontend/templates/frontend/profile.html:66
+msgid "Выберите аватар"
+msgstr "Select avatar"
+
+#: frontend/templates/frontend/profile.html:79
+msgid "Изменить аватар"
+msgstr "Change Avatar"
+
+#: frontend/templates/frontend/profile.html:85
+msgid "Удалить аватар"
+msgstr "Delete Avatar"
+
+#: frontend/templates/frontend/profile.html:92 users/forms.py:13
+msgid "Фамилия"
+msgstr "Surname"
+
+#: frontend/templates/frontend/profile.html:105 users/forms.py:17
+msgid "Отчество"
+msgstr "Patronymic"
+
+#: frontend/templates/frontend/profile.html:125
+#: frontend/templates/frontend/profile.html:159
+msgid "Сохранить"
+msgstr "Save"
+
+#: frontend/templates/frontend/profile.html:136
+msgid "Текущий пароль"
+msgstr "Current Password"
+
+#: frontend/templates/frontend/profile.html:139
+msgid "Введите текущий пароль"
+msgstr "Enter current password"
+
+#: frontend/templates/frontend/profile.html:147
+msgid "Тут можно изменить пароль"
+msgstr "Here you can change password"
+
+#: frontend/templates/frontend/profile.html:151
+msgid "Подтверждение пароля"
+msgstr "Password Confirmation"
+
+#: frontend/templates/frontend/profile.html:154
+msgid "Введите пароль повторно"
+msgstr "Enter the password again"
+
+#: frontend/templates/frontend/progressPayment.html:11
+#: frontend/templates/frontend/progressPayment.html:21
+msgid "Ожидание оплаты"
+msgstr "Waiting for payment"
+
+#: frontend/templates/frontend/progressPayment.html:32
+msgid "Ждем подтверждения оплаты платежной системой"
+msgstr "We are waiting for payment confirmation by the payment system"
+
+#: frontend/templates/frontend/sale.html:11
+#: frontend/templates/frontend/sale.html:21
+msgid "Распродажа"
+msgstr "Sale"
+
+#: megano_shop/urls.py:30
+msgid "Панель администрирования магазина MEGANO"
+msgstr "MEGANO Shop Administration Panel"
+
+#: megano_shop/urls.py:31
+msgid "Админ панель MEGANO Shop"
+msgstr "MEGANO Shop Admin Panel"
+
+#: megano_shop/urls.py:32
+msgid "MEGANO Shop"
+msgstr "MEGANO Shop"
+
+#: users/apps.py:8 users/models.py:30
+msgid "Профили"
+msgstr "Profiles"
+
+#: users/models.py:14
+msgid "Аватарка"
+msgstr "Avatar"
+
+#: users/models.py:15
+msgid "Аватарки"
+msgstr "Avatars"
+
+#: users/models.py:18
+msgid "Аватарка пользователя "
+msgstr "User avatar "
+
+#: users/models.py:23
+msgid "отчество"
+msgstr "patronymic"
+
+#: users/models.py:33
+msgid "Доп.инфо пользователя "
+msgstr "Additional.user info "
+
+#: users/templates/users/login_from.html:8
+msgid "Вход в личный кабинет"
+msgstr "Login to the personal account"
+
+#: users/templates/users/login_from.html:15
+msgid "Войти"
+msgstr "Log in"
+
+#: users/templates/users/login_from.html:18
+#: users/templates/users/registration.html:15
+msgid "Зарегистрироваться"
+msgstr "Register"
+
+#: users/templates/users/registration.html:7
+msgid "Страница регистрации новых пользователей"
+msgstr "New user registration page"
+
+#: users/views.py:43
+msgid "В системе зарегистрирован новый пользователь"
+msgstr "A new user has been registered in the system"
+
+#: users/views.py:53
+msgid "Пользователь залогинился"
+msgstr "The user has logged in"

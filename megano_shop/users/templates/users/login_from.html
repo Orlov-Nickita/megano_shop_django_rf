@@ -1,0 +1,22 @@
+{% extends 'users/base.html' %}
+{% load i18n %}
+
+
+{% block main_content %}
+  <section class="wrap container">
+    <h1 class="Section-title">
+      {% trans 'Вход в личный кабинет' %}
+    </h1>
+    <form method="POST">
+      {% csrf_token %}
+      {{ form.as_p }}
+
+      <button class="btn btn_primary" type="submit">
+        {% trans 'Войти' %}
+      </button>
+      <a class="btn btn_primary" href="{% url 'users:registration' %}">
+        {% trans 'Зарегистрироваться' %}
+      </a>
+    </form>
+  </section>
+{% endblock %}
